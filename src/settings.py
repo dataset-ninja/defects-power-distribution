@@ -13,12 +13,8 @@ PROJECT_NAME_FULL: Optional[str] = "Defects in Power Distribution Components"
 ##################################
 LICENSE: License = License.CC_BY_4_0()
 INDUSTRIES: List[Industry] = [Industry.Energy()]
-CV_TASKS: List[CVTask] = [
-    CVTask.InstanceSegmentation(),
-    CVTask.ObjectDetection(),
-    CVTask.SemanticSegmentation(),
-]
-ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
+CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
+ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
 
 RELEASE_YEAR: int = 2020
 HOMEPAGE_URL: str = "https://zenodo.org/record/3972451#.YkWxBn9Bzmg"

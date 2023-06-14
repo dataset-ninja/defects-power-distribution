@@ -6,7 +6,7 @@ from dataset_tools.templates import AnnotationType, CVTask, Industry, License
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "DefectsPDC"
-PROJECT_NAME_FULL: Optional[str] = "Defects in Power Distribution Components"
+PROJECT_NAME_FULL: Optional[str] = "DefectsPDC: Defects in Power Distribution Components"
 
 ##################################
 # * After uploading to instance ##
@@ -39,7 +39,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 PAPER: Optional[str] = None
 CITATION_URL: Optional[str] = "https://doi.org/10.5281/zenodo.3972451"
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "State University of Maranhão"
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "State University of Maranhão, Brazil"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.uema.br/"
 TAGS: List[str] = None
 

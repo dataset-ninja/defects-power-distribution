@@ -20,7 +20,7 @@ RELEASE_YEAR: int = 2020
 HOMEPAGE_URL: str = "https://zenodo.org/record/3972451#.YkWxBn9Bzmg"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = None
+PREVIEW_IMAGE_ID: int = 394713
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/defects-power-distribution"

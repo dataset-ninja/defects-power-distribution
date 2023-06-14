@@ -62,7 +62,7 @@ HEATMAP_COLS: int = None
 HEATMAP_GRID_SPACING: int = None
 HEATMAP_OUTER_GRID_SPACING: int = None
 HEATMAP_OUTPUT_WIDTH: int = (
-    2000  # 1 class in dataset? -> 1600px by default for portrait-oriented images
+    1600  # 1 class in dataset? -> 1600px by default for portrait-oriented images
 )
 ###############################################################
 

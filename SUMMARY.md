@@ -4,6 +4,6 @@ The dataset consists of 708 images with 707 labeled objects belonging to 3 diffe
 
 Each image in the DefectsPDC dataset has bounding boxes annotations. There is 1 unlabled image (i.e. without annotations). There is 1 split in the dataset: *ds* (708 images). The dataset was released in 2020 by the [State University of Maranhão](https://www.uema.br/).
 
-Here are the visualized examples for each of the 3 classes:
+Here is the visualized example grid with annotations:
 
-[Dataset classes](https://github.com/dataset-ninja/defects-power-distribution/raw/main/visualizations/classes_preview.webm)
+<img src="https://github.com/dataset-ninja/defects-power-distribution/raw/main/visualizations/horizontal_grid.png">

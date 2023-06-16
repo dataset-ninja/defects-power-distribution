@@ -13,4 +13,4 @@ import dataset_tools as dtools
 
 dtools.download(dataset='DefectsPDC', dst_path='~/dtools/datasets/DefectsPDC.tar')
 ```
-The data in original format can be 🔗[downloaded here.](https://zenodo.org/record/3972451/files/Electricity%20Components%20Defects.zip?download=1)
+The data in original format can be 🔗[downloaded here](https://zenodo.org/record/3972451/files/Electricity%20Components%20Defects.zip?download=1)

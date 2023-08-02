@@ -51,7 +51,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = None
-CITATION_URL: Optional[str] = "https://doi.org/10.5281/zenodo.3972451"
+CITATION_URL: Optional[str] = "https://zenodo.org/record/3972451/export/hx"
 AUTHORS: Optional[List[str]] = [
     "João Pedro Augusto Costa",
     "Omar Andres Carmona Cortes",

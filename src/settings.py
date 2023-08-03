@@ -48,7 +48,7 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = {
-    "Cable out of insulator": [145, 30, 180],
+    "Cable out of insulator": [230, 25, 75],
     "Cable out of spacer": [255, 225, 25],
     "Insulator withour ring": [220, 190, 255],
 }

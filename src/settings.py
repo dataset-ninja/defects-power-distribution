@@ -55,13 +55,14 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = {
 }
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
-PAPER: Optional[str] = None
+PAPER: Optional[str] = "https://www.tandfonline.com/doi/full/10.1080/08839514.2021.1998974"
 CITATION_URL: Optional[str] = "https://zenodo.org/record/3972451/export/hx"
 AUTHORS: Optional[List[str]] = [
     "João Pedro Augusto Costa",
     "Omar Andres Carmona Cortes",
     "Jose Israel de Almondes",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["omar@ifma.edu.br"]
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "State University of Maranhão, Brazil"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.uema.br/"
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = None
@@ -107,6 +108,7 @@ def get_settings():
     settings["paper"] = PAPER
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT

@@ -1,6 +1,6 @@
 Dataset **Defects in Power Distribution Components** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/d2ousegs0xswa1myscw9d/defects-in-power-distribution-components-DatasetNinja.tar?rlkey=nczc8qq59f2s3qtqvo6872w9r&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzEwMTFfRGVmZWN0cyBpbiBQb3dlciBEaXN0cmlidXRpb24gQ29tcG9uZW50cy9kZWZlY3RzLWluLXBvd2VyLWRpc3RyaWJ1dGlvbi1jb21wb25lbnRzLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogImNaYnJsQmlVNFJpS2t6am1ZZ1JITGw4REpaVk5QdTkxeU1NVnl3NFA3R1E9In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
